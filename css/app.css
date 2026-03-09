@@ -1,0 +1,46 @@
+body {
+    font-family: 'Atkinson Hyperlegible Next', Arial, Helvetica, sans-serif;
+    color: black;
+}
+a, a:link, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.75;
+}
+.border {
+    border: 2px solid white;
+    border-radius: 1px;
+}
+.border-right-none {
+    border-right: none;
+}
+@media (max-width: 768px) {
+    .border-top-none-mobile {
+        border-top: none;
+    }
+}
+
+.svdp-header {
+    color: white;
+    background-color: #026bab;
+}
+.svdp-who {
+    color: white;
+    background-color: #026bab;
+}
+.svdp-hero {
+    background-color: white;
+    color: #026bab;
+}
+.svdp-who-we-are {
+    color: #026bab;
+}
+.svdp-what-we-do {
+    color: #026bab;
+}
+.svdp-footer {
+    color: white;
+    background-color: #026bab;
+}
